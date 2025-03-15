@@ -37,7 +37,7 @@ jobs:
 
       - name: Build Flutter Web
         run: flutter build web --web-renderer html
-        working-directory: macless-haystack/macless_haystack/web
+        working-directory: macless-haystack/macless_haystack
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
